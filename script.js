@@ -2,12 +2,11 @@
 const CONFIG = {
   openingDate: "2025-09-01T10:00:00", // Дата открытия
   salonName: 'Свадебный салон "Невеста"',
-  address: "г. Москва, ул. Свадебная, д. 1",
-  phone: "+7 (495) 123-45-67",
-  email: "info@elegance-wedding.ru",
+  address: "г. Первомайск, ул. XIX Партсъезда, д. 5",
+  phone: "+7 (959) 547-55-75",
   workHours: {
-    weekday: "Пн-Пт: 10:00 - 20:00",
-    weekend: "Сб-Вс: 11:00 - 19:00",
+    weekday: "Пн-Пт: 09:00 - 17:00",
+    weekend: "Сб-Вс: 09:00 - 17:00",
   },
 };
 // Данные о товарах
@@ -15,7 +14,6 @@ const products = [
   {
     id: 1,
     name: "Свадебное платье «Амелия»",
-    price: 45000,
     images: [
       "images 1/платье 1.jpg",
       "images 1/платье 2.jpg",
@@ -24,12 +22,10 @@ const products = [
     ],
     video: "images 1/ПЛАТЬЕ.mp4",
     category: "dresses",
-    description: "Роскошное платье из французского кружева с длинным шлейфом",
   },
   {
     id: 2,
     name: "Свадебное платье «Изабелла»",
-    price: 38000,
     images: [
       "images/платье 1.jpg",
       "images/платье 2.jpg",
@@ -43,12 +39,10 @@ const products = [
     ],
     video: "images/платье 2.mp4",
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 3,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Амарель»",
     images: [
       "images 2/платье 1.jpg",
       "images 2/платье 2.jpg",
@@ -57,12 +51,10 @@ const products = [
       "images 2/платье 5.jpg",
     ],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 4,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Жозефина»",
     images: [
       "images 3/платье 1.jpg",
       "images 3/платье 2.jpg",
@@ -71,12 +63,10 @@ const products = [
     ],
     video: "images 3/платье девочка рыжая.mp4",
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 5,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Королева»",
     images: [
       "images 4/платье 1.jpg",
       "images 4/платье 2.jpg",
@@ -88,12 +78,10 @@ const products = [
     ],
     video: "images 4/платье 5.mp4",
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 6,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Лунная невеста»",
     images: [
       "images 5/платье 1.jpg",
       "images 5/платье 2.jpg",
@@ -105,12 +93,10 @@ const products = [
     ],
     videos: ["images 5/Платье.mp4", "images 5/платье 6.mp4"],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 7,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Очарование»",
     images: [
       "images 6/платье 1.jpg",
       "images 6/платье 2.jpg",
@@ -121,12 +107,10 @@ const products = [
     ],
     videos: ["images 6/ПЛАТЬЕ-2ч.mp4", "images 6/ПЛАТЬЕ.mp4"],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 8,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Мечта»",
     images: [
       "images 7/платье 1.jpg",
       "images 7/платье 2.jpg",
@@ -139,12 +123,10 @@ const products = [
       "images 7/платье 2.mp4",
     ],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 9,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Адель»",
     images: [
       "images 8/платье 1.jpg",
       "images 8/платье 2.jpg",
@@ -154,12 +136,10 @@ const products = [
       "images 8/платье 6.jpg",
     ],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 10,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Ариэль»",
     images: [
       "images 9/платье 1.jpg",
       "images 9/платье 2.jpg",
@@ -172,12 +152,10 @@ const products = [
     ],
     videos: ["images 9/платье 2ч.mp4", "images 9/платье 1ч.mp4"],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 11,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Лебединная песнь»",
     images: [
       "images 10/платье 1.jpg",
       "images 10/платье 2.jpg",
@@ -187,12 +165,10 @@ const products = [
     ],
     videos: ["images 10/платье 2ч.mp4", "images 10/платье 1ч.mp4"],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 12,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Гармония»",
     images: [
       "images 11/платье 1.jpg",
       "images 11/платье 2.jpg",
@@ -202,12 +178,10 @@ const products = [
     ],
     video: ["images 11/платье.mp4"],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 13,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Элитное очарование»",
     images: [
       "images 12/платье 1.jpg",
       "images 12/платье 2.jpg",
@@ -217,12 +191,10 @@ const products = [
     ],
     video: ["images 12/платье.mp4"],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 14,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Елизавета»",
     images: [
       "images 13/платье 1.jpg",
       "images 13/платье 2.jpg",
@@ -232,12 +204,10 @@ const products = [
     ],
     video: ["images 13/платье.mp4"],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 15,
-    name: "Свадебное платье «Изабелла»",
-    price: 38000,
+    name: "Свадебное платье «Сладкая девочка»",
     images: [
       "images 14/платье 1.jpg",
       "images 14/платье 2.jpg",
@@ -246,31 +216,24 @@ const products = [
       "images 14/платье 5.jpg",
     ],
     category: "dresses",
-    description: "Элегантное платье прямого кроя с открытой спиной",
   },
   {
     id: 16,
     name: "Фата «Нежность»",
-    price: 8500,
     images: ["фата.jpeg"],
     category: "veils",
-    description: "Длинная фата из тончайшего тюля с жемчужной вышивкой",
   },
   {
     id: 17,
     name: "Диадема «Королева»",
-    price: 12000,
     images: ["диадема.jpg"],
     category: "tiaras",
-    description: "Изящная диадема с кристаллами Swarovski",
   },
   {
     id: 18,
     name: "Туфли «Золушка»",
-    price: 9500,
     images: ["туфли.jpeg"],
     category: "shoes",
-    description: "Элегантные туфли на каблуке с жемчужными деталями",
   },
 ];
 
@@ -370,7 +333,6 @@ function renderDresses() {
       <div class="dress-info">
         <h3>${dress.name}</h3>
         ${dress.description ? `<p class="dress-description">${dress.description}</p>` : ""}
-        <p class="dress-price">${dress.price.toLocaleString("ru-RU")} руб.</p>
       </div>
     `;
 
@@ -495,7 +457,6 @@ function renderAccessories(category = "all") {
       <div class="accessory-info">
         <h3>${item.name}</h3>
         ${item.description ? `<p>${item.description}</p>` : ""}
-        <p class="price">${item.price.toLocaleString("ru-RU")} руб.</p>
       </div>
     `;
 
@@ -552,3 +513,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initSmoothScroll();
   initShowMoreButton();
 });
+
+
